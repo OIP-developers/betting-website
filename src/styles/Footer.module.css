@@ -1,0 +1,117 @@
+.footerSection {
+    padding: 0 0 40px 0;
+     background-color: #00001D;
+    ;
+}
+
+.container {
+    max-width: 1470px;
+    margin: 0 auto;
+}
+
+/* Top Row: Logo & Connect Wallet */
+.rowFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 55px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.footerLogo img {
+    width: 100%;
+    max-width: 235px;
+}
+
+/* Connect Wallet Button */
+.button a {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 16px 30px;
+    background: linear-gradient(95.37deg, #000BC4 0.91%, #2754E2 132.32%);
+    border-radius: 6.6px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid white;
+    position: relative;
+}
+
+.button img {
+    width: 9.5px;
+    height: 8.52px;
+    margin-left: 7px;
+}
+
+/* Middle Row: Footer Text & Navigation */
+.footerManurow {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.footerP {
+    color: #fff;
+    width: 20%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Sarala';
+}
+
+/* Navigation Links */
+.footerManuBar {
+    display: flex;
+    width: 100%;
+    max-width: 681px;
+    justify-content: space-between;
+}
+
+.subManubox h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 24px 0;
+    font-family: 'Fira Mono';
+}
+
+.subManubox ul {
+    padding: 0;
+    margin: 0;
+}
+
+.subManubox ul li {
+    list-style: none;
+    margin-bottom: 17px;
+}
+
+.subManubox ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Sarala';
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+/* Copyright */
+.copyrightRow {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.copyrightRow p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    font-family: 'Sarala';
+    margin: 0;
+}

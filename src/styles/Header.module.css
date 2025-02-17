@@ -1,0 +1,103 @@
+.container1470 {
+    width: 100%;
+    max-width: 1470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* header CSS Start */
+  .header .row .menuBar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 89px;
+  }
+  
+  .header .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 36px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  .headerLogo {
+    width: 193px;
+    height: 100%;
+    padding: 0;
+  }
+  
+  .headerLogo img {
+    width: 193.56px;
+    height: 54px;
+  }
+  
+  .header .row .menuBar {
+    padding: 0;
+    width: 800px;
+  }
+  
+  .button {
+    padding: 0;
+    width: 182px;
+  }
+  
+  .header .row .menuBar ul li a {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .button a {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 16.467px 29.94px;
+    background: linear-gradient(95.37deg, #000BC4 0.91%, #2754E2 132.32%);
+    border-radius: 6.6px;
+    display: inline-flex;
+    align-items: baseline;
+    text-decoration: none;
+    border-image: linear-gradient(90deg, #fff 0%, #fff 50%, #fff 100%);
+    border-image-slice: 1;
+    position: relative;
+  }
+  
+  .button a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px; /* Border thickness */
+    background: linear-gradient(90deg, #fff 0%, #fff 50%, #fff 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    border-radius: 6.60028px;
+  }
+  
+  .header {
+    padding-top: 45px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .button img {
+    width: 9.5px;
+    height: 8.52px;
+    margin-left: 7px;
+  }
+  
