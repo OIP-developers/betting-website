@@ -1,29 +1,87 @@
+"use client";
 import Link from 'next/link';
+import React, { useState } from 'react';
 
-const Header = () => {
+const Header: React.FC = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header>
-          <div className="container-1470">
-              <div className="row">
-                  <div className="header-logo">
-                      <img src="/img/logo-img.png" alt="" />
-                  </div>
-                  <div className="ManuBar">
-                      <ul>
-                        <li><Link href="/">Home</Link></li>
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">Audit</a></li>
-                        <li><Link href="/faq">FAQ</Link></li>
-                        <li><Link href="/blog">Blog</Link></li>
-                        <li><a href="#">Contract</a></li>
-                      </ul>
-                    </div>
-                    <div className="button">
-                      <a href="#">Connect Wallet <img src="/img/Vector - 2025-02-13T142841.083.png" alt="" /></a>
-                    </div>
-              </div>
+      <div className="container-1470">
+        <div className="row desktop-header g-0">
+          <div className="header-logo">
+            <img src="/img/logo-img.png" alt="Logo" />
           </div>
-      </header>
+          <div className="ManuBar">
+          <ul>
+  <li>
+    <Link href="/">HOME</Link>
+  </li>
+  <li>
+    <Link href="/casino">Casino</Link>
+  </li>
+  <li>
+    <Link href="/Sports">Sports</Link> {/* or /sports if you rename the folder */}
+  </li>
+</ul>
+          </div>
+          <div className="buttons-main">
+            <div className="button">
+              <a href="#">
+                Sign Up{' '}
+                <img
+                  src="/img/Vector - 2025-02-13T142841.083.png"
+                  alt="Sign Up Icon"
+                />
+              </a>
+            </div>
+            <div className="button">
+              <a href="#">
+                Sign Up{' '}
+                <img
+                  src="/img/Vector - 2025-02-13T142841.083.png"
+                  alt="Sign Up Icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile Header */}
+        <div className="row mobile-header g-0">
+          <div className="header-logo">
+            <img src="/img/logo-img.png" alt="Logo" />
+          </div>
+          <div className="mobile-menu-icon" onClick={toggleMenu}>
+            ☰
+          </div>
+          <nav className={`ManuBar ${menuOpen ? 'open' : ''}`}>
+            <ul>
+              <li>
+                <a href="#">HOME</a>
+              </li>
+              <li>
+                <a href="#">Casino</a>
+              </li>
+              <li>
+                <a href="#">Sports</a>
+              </li>
+              <li className="button">
+                <a href="#">Connect Wallet</a>
+              </li>
+              <li className="button">
+                <a href="#">Connect Wallet</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+    </header>
   );
 };
 
