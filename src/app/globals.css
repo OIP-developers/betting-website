@@ -3401,4 +3401,757 @@ header .row .ManuBar ul li a:hover {
   }
   
    }
-  
+  /* login */
+  .container-1470 {
+    width: 100%;
+    max-width: 1470px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.login-text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 545.354px;
+    line-height: 818px;
+    background: linear-gradient(180deg, #D8A902 5.8%, rgba(0, 0, 0, 0) 76.22%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: 0;
+}
+
+.login-text {
+    position: relative;
+}
+
+.login-banner-row {
+    padding-top: 0px;
+    position: relative;
+}
+
+.login-banner .login-container {
+    width: 600px;
+    height: 783px;
+    background: #111;
+    color: #fff;
+    padding: 52PX 38px 70px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    Z-INDEX: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-banner .close-btn {
+    background: none;
+    border: none;
+    color: #D8A902;
+    font-size: 20px;
+    cursor: pointer;
+}
+.login-banner .login-toggle button {
+    padding: 16.467px 29.94px;
+    width: 260px;
+    height: 65px;
+    border: 1px solid #D8A902;
+    border-radius: 6.6px;
+    background: transparent;
+}
+
+.login-banner .login-toggle .active {
+    background: #D8A902;
+    color: #000;
+}
+.login-banner .input-group {
+    margin: 0px 0px 20px;
+    position: relative;
+}
+
+.login-banner .input-group input {
+    width: 100%;
+    padding: 14px 26px 14px 37px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 6.08586px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+}
+
+.login-banner .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #D8A902;
+    cursor: pointer;
+}
+
+.login-banner .forgot-password {
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 70px 0px 50px;
+}
+
+.login-banner .login-btn {
+    width: 100%;
+    padding: 22px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #000000;
+    background: #D8A902;
+    border: 1px solid #FFFFFF;
+    border-radius: 6.6px;
+}
+
+.login-banner .register-link a {
+    color: #D8A902;
+}
+
+.login-banner .login-header h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+}
+
+.login-banner .login-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    background: linear-gradient(90deg, #D8A902 0%, #000000 50%, #D8A902 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    border-radius: 13px;
+    Z-INDEX: -1;
+}
+
+.login-banner .login-toggle button a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.login-banner .login-toggle button a img {
+    width: 24px;
+    height: 24px;
+}
+
+.login-banner .login-toggle {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 39px;
+}
+
+.login-banner .closed-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 26px;
+    height: 26px;
+}
+
+
+.login-banner .closed-button img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-banner .forgot-password a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+    text-decoration: none;
+}
+
+.login-banner .forgot-password img {
+    width: 29px;
+    height: 29px;
+}
+
+.login-banner .register-link span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    align-items: center;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+}
+
+.login-banner .register-link {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login-banner .register-link a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    align-items: center;
+    letter-spacing: -0.48px;
+    color: #D8A902;
+    text-decoration: none;
+}
+
+.login-banner .login-banner {
+    padding: 150px 0;
+}
+
+.login-banner .login-toggle button.active a {
+    color: #000;
+}
+
+.input-group.bottom-input {
+    margin: 0;
+}
+
+.login-banner {
+    padding: 150px 0px;
+}
+
+button.toggle-password img {
+    width: 16px;
+    height: 16px;
+}
+
+.input-group.bottom-input {
+    margin: 0;
+}
+
+/* login */
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 6.08586px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+    margin-bottom: 20px;
+}
+
+.country-code {
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    padding: 13px 30px 13px;
+    border-radius: 5px;
+}
+
+.country-code img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.phone-input input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #aaa;
+}
+
+.country-code span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    align-items: center;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+}
+
+
+/* forgott-possword */
+
+.input-group h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.forgott-banner .login-container.forgott-container {
+    width: 964px;
+    height: 773px;
+    padding: 52px 80px 80px 80px;
+    background: #101010;
+    border: 1.2035px solid #D3D3D3;
+    border-radius: 6.01748px 0px 0px 7.3243px;
+}
+
+.login-container.forgott-container::before {
+    display: none;
+}
+
+.confirm-pass {
+    margin-top: 42px;
+}
+
+.input-sub-gp {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+/* Registration css */
+
+.login-text.signup-text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 416.911px;
+    line-height: 648px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #D8A902 5.8%, rgba(0, 0, 0, 0) 76.22%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.registration-banner .success-main {
+    display: flex;
+    justify-content: space-between;
+    background: #222222;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px 0px 0px 6.08586px;
+    padding: 17px 20px;
+    margin-bottom: 53px;
+}
+
+.registration-banner .cloudflare {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-banner .login-container.registration-container {
+    width: 631px;
+    height: 783px;
+    padding: 52px 38px 80px;
+}
+
+.registration-banner label.checkbox-container {
+    display: flex;
+    align-items: baseline;
+    text-align: left;
+    gap: 16px;
+}
+
+.registration-banner .labelmain {
+    margin: 35px 0px 50px;
+}
+
+.registration-banner label.checkbox-container h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+    margin: 0;
+    width: 425px;
+}
+
+.registration-banner label.checkbox-container h5 span {
+    color: #D8A902;
+}
+
+.registration-banner .cloud-img img {
+    width: 80px;
+    height: 30px;
+}
+
+.registration-banner .success-box p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+    margin: 0;
+}
+
+.registration-banner .check-img img {
+    width: 28px;
+    height: 28px;
+}
+
+.registration-banner .success-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.registration-banner .polocy-text a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.75676px;
+    line-height: 28px;
+    letter-spacing: -0.48px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.checkbox-container input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 0.345865px solid #383838;
+    box-shadow: 0px 0px 5.76441px rgba(0, 0, 0, 0.1);
+    border-radius: 3.45865px;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox-container input[type="checkbox"]:checked::before {
+    content: "✔"; 
+    font-size: 12px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* end */
+/* Responsive CSS */
+
+@media (min-width:991px){
+
+    .container-1470 {
+        max-width: 76.563vw;
+    }
+    
+    .login-text h1 {
+        font-size: 28.404vw;
+        line-height: 42.604vw;
+    }
+            
+    .login-banner .login-container {
+        width: 31.25vw;
+        height: 40.781vw;
+        padding: 2.708vw 1.979vw 3.646vw;
+        border-radius: 0.521vw;
+    }
+    
+    .login-banner .close-btn {
+        font-size: 1.042vw;
+    }
+    .login-banner .login-toggle button {
+        padding: 0.858vw 1.559vw;
+        width: 13.542vw;
+        height: 3.385vw;
+        border: 0.052vw solid #D8A902;
+        border-radius: 0.344vw;
+    }
+    
+    .login-banner .input-group {
+        margin: 0vw 0vw 1.042vw;
+    }
+    
+    .login-banner .input-group input {
+        padding: 0.729vw 1.354vw 0.729vw 1.927vw;
+        border: 0.052vw solid #FFFFFF;
+        border-radius: 0.317vw;
+        font-size: 0.938vw;
+        line-height: 1.927vw;
+        letter-spacing: -0.025vw;
+    }
+    
+    .login-banner .toggle-password {
+        right: 0.521vw;
+    }
+    
+    .login-banner .forgot-password {
+        gap: 0.521vw;
+        margin: 3.646vw 0vw 2.604vw;
+    }
+    
+    .login-banner .login-btn {
+        padding: 1.146vw 0vw;
+        font-size: 0.729vw;
+        line-height: 1.094vw;
+        border: 0.052vw solid #FFFFFF;
+        border-radius: 0.344vw;
+    }
+        
+    .login-banner .login-header h2 {
+        font-size: 1.563vw;
+        line-height: 2.604vw;
+        margin-bottom: 2.448vw;
+    }
+    
+    .login-banner .login-container::before {
+        border-radius: 0.677vw;
+        padding: 0.052vw;
+    }
+    
+    .login-banner .login-toggle button a {
+        font-size: 0.729vw;
+        line-height: 1.094vw;
+        gap: 0.417vw;
+    }
+    
+    .login-banner .login-toggle button a img {
+        width: 1.25vw;
+        height: 1.25vw;
+    }
+    
+    .login-banner .login-toggle {
+        gap: 1.823vw;
+        margin-bottom: 2.031vw;
+    }
+    
+    .login-banner .closed-button {
+        right: 1.042vw;
+        top: 1.042vw;
+        width: 1.354vw;
+        height: 1.354vw;
+    }
+        
+    .login-banner .forgot-password a {
+        font-size: 0.938vw;
+        line-height: 1.927vw;
+        letter-spacing: -0.025vw;
+    }
+    
+    .login-banner .forgot-password img {
+        width: 1.51vw;
+        height: 1.51vw;
+    }
+    
+    .login-banner .register-link span {
+        font-size: 0.938vw;
+        line-height: 1.927vw;
+        letter-spacing: -0.025vw;
+    }
+    
+    .login-banner .register-link {
+        margin-top: 1.042vw;
+    }
+    
+    .login-banner .register-link a {
+        font-size: 0.938vw;
+        line-height: 1.927vw;
+        letter-spacing: -0.025vw;
+    }
+    
+    .login-banner .login-banner {
+        padding: 7.813vw 0;
+    }
+    .login-banner {
+        padding: 7.813vw 0vw;
+    }
+
+    button.toggle-password img {
+        width: 0.833vw;
+        height: 0.833vw;
+    }
+
+    /* login */
+
+.phone-input {
+    border: 0.052vw solid #FFFFFF;
+    border-radius: 0.317vw;
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+    margin-bottom: 1.042vw;
+}
+
+.country-code {
+    padding: 0.677vw 1.563vw 0.677vw;
+    border-radius: 0.26vw;
+}
+
+.country-code img {
+    width: 1.563vw;
+    height: 1.563vw;
+    margin-right: 0.417vw;
+}
+
+.phone-input input {
+    padding-left: 1.563vw;
+    font-size: 0.833vw;
+}
+
+.country-code span {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+
+}
+
+/* forgott-possword */
+
+.input-group h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+    color: #FFFFFF;
+    margin-bottom: 0.677vw;
+}
+
+.forgott-banner .login-container.forgott-container {
+    width: 50.208vw;
+    height: 40.26vw;
+    padding: 2.708vw 4.167vw 4.167vw 4.167vw;
+    border: 0.063vw solid #D3D3D3;
+    border-radius: 0.313vw 0vw 0vw 0.381vw;
+}
+
+.confirm-pass {
+    margin-top: 2.188vw;
+}
+
+
+/* Registration css */
+
+.login-text.signup-text h1 {
+    font-size: 21.714vw;
+    line-height: 33.75vw;
+}
+
+.registration-banner .success-main {
+    border: 0.052vw solid #D3D3D3;
+    border-radius: 0.26vw 0vw 0vw 0.317vw;
+    padding: 0.885vw 1.042vw;
+    margin-bottom: 2.76vw;
+}
+
+.registration-banner .login-container.registration-container {
+    width: 32.865vw;
+    height: 40.781vw;
+    padding: 2.708vw 1.979vw 4.167vw;
+}
+
+.registration-banner label.checkbox-container {
+    gap: 0.833vw;
+}
+
+.registration-banner .labelmain {
+    margin: 1.823vw 0vw 2.604vw;
+}
+
+.registration-banner label.checkbox-container h5 {
+    font-size: 0.833vw;
+    line-height: 1.354vw;
+    letter-spacing: -0.025vw;
+    width: 22.135vw;
+}
+
+.registration-banner .cloud-img img {
+    width: 4.167vw;
+    height: 1.563vw;
+}
+
+.registration-banner .success-box p {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+}
+
+.registration-banner .check-img img {
+    width: 1.458vw;
+    height: 1.458vw;
+}
+
+.registration-banner .success-box {
+    gap: 0.625vw;
+}
+
+.registration-banner .polocy-text a {
+    font-size: 0.456vw;
+    line-height: 1.458vw;
+    letter-spacing: -0.025vw;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: 1.042vw;
+    height: 1.042vw;
+    border: 0.018vw solid #383838;
+    box-shadow: 0vw 0vw 0.3vw rgba(0, 0, 0, 0.1);
+    border-radius: 0.18vw;
+}
+
+.checkbox-container input[type="checkbox"]:checked::before {
+    font-size: 0.625vw;
+}
+
+}

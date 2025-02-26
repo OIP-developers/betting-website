@@ -1,4 +1,3 @@
-import FAQSection from "@/components/FAQSection";
 
 
 export default function Home() {

@@ -17,36 +17,36 @@ const Header: React.FC = () => {
             <img src="/img/logo-img.png" alt="Logo" />
           </div>
           <div className="ManuBar">
-          <ul>
-  <li>
-    <Link href="/">HOME</Link>
-  </li>
-  <li>
-    <Link href="/casino">Casino</Link>
-  </li>
-  <li>
-    <Link href="/Sports">Sports</Link> {/* or /sports if you rename the folder */}
-  </li>
-</ul>
+            <ul>
+              <li>
+                <Link href="/">HOME</Link>
+              </li>
+              <li>
+                <Link href="/casino">Casino</Link>
+              </li>
+              <li>
+                <Link href="/Sports">Sports</Link> {/* or /sports if you rename the folder */}
+              </li>
+            </ul>
           </div>
           <div className="buttons-main">
             <div className="button">
-              <a href="#">
-                Sign Up{' '}
+              <Link href="/register">
+                Sign up{' '}
                 <img
                   src="/img/Vector - 2025-02-13T142841.083.png"
-                  alt="Sign Up Icon"
+                  alt="Sign in Icon"
                 />
-              </a>
+              </Link>
             </div>
             <div className="button">
-              <a href="#">
-                Sign Up{' '}
+              <Link href="/login">
+                Sign In{' '}
                 <img
                   src="/img/Vector - 2025-02-13T142841.083.png"
-                  alt="Sign Up Icon"
+                  alt="Sign in Icon"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@ const Header: React.FC = () => {
           </nav>
         </div>
       </div>
-      
+
     </header>
   );
 };
