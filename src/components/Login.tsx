@@ -13,7 +13,9 @@ const Login = () => {
       <div className="login-row">
         <div className="login-container">
           <div className="closed-button">
+            <Link href='/'>
             <img src="/img/closed-icon.png" alt=""/>
+            </Link>
           </div>
           <div className="login-header">
               <h2>Login</h2>

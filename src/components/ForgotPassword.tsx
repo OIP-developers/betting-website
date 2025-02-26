@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const ForgotPassword = () => {
@@ -7,7 +8,10 @@ const ForgotPassword = () => {
       <div className="login-row">
         <div className="login-container forgott-container">
           <div className="closed-button">
+            <Link href="/">
+            
             <img src="/img/closed-icon.png" alt=""/>
+            </Link>
           </div>
           <div className="login-header">
               <h2>Change Password</h2>
