@@ -22,11 +22,9 @@ const Login = () => {
           {/* <Link href="/register"> */}
               <button className="active"><a href=""><img src="/img/qlementine-icons_user-24.png" alt=""/>User ID</a> </button>
           {/* </Link>  */}
-              <Link href="/call">
             
-            <button><a href=""><img src="/img/phone-solid.png" alt=""/>Phone</a></button>
+            <button><a href="/call"><img src="/img/phone-solid.png" alt=""/>Phone</a></button>
             
-            </Link> 
           </div>
           <form>
               <div className="input-group">
