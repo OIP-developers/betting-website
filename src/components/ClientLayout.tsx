@@ -1,14 +1,13 @@
-"use client"; // Allows usePathname()
+"use client"; 
 
 import { usePathname } from "next/navigation";
 import Header from "./Header";
 import Footer from "./Footer";
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
-  const pathname = usePathname(); // Get current route
+  const pathname = usePathname();
 
-  // Define routes where you want to hide Header & Footer
-  const hiddenRoutes = ["/login", "/register", "/forgotPassword", "/call"];
+  const hiddenRoutes = ["/login", "/register", "/forgotPassword", "/call",'/profileHeader'];
 
   return (
     <>

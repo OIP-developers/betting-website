@@ -41,8 +41,8 @@ const Login = () => {
                   
                   <a href="forgotPassword">Forgot Password</a>
               </div>
-              <button className="login-btn">Login</button>
-          </form>
+              <button className="login-btn"><a href="/">Login</a></button>
+          </form> 
           <div className="register-link">
               <span><a href='register'>Don’t have an account?</a></span> 
               <a href="register">Registration</a>

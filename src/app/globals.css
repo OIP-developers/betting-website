@@ -3525,7 +3525,7 @@ header .row .ManuBar ul li a:hover {
 }
 
 .login-banner .register-link a {
-    color: #D8A902;
+    color: #ffffff;
 }
 
 .login-banner .login-header h2 {
@@ -3615,7 +3615,7 @@ header .row .ManuBar ul li a:hover {
     line-height: 37px;
     align-items: center;
     letter-spacing: -0.48px;
-    color: #D3D3D3;
+    color: #ffffff;
 }
 
 .login-banner .register-link {
@@ -3633,7 +3633,7 @@ header .row .ManuBar ul li a:hover {
     line-height: 37px;
     align-items: center;
     letter-spacing: -0.48px;
-    color: #D8A902;
+    color: #ececec;
     text-decoration: none;
 }
 
@@ -4152,6 +4152,1295 @@ button.toggle-password img {
 
 .checkbox-container input[type="checkbox"]:checked::before {
     font-size: 0.625vw;
+}
+
+}
+.profile-header .header-img img {
+    width: 57px;
+    height: 57px;
+}
+
+.profile-header .icon-header.profile-header-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.profile-header .icon-header.profile-header-icon span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.profile-header .icon-header.profile-header-icon {
+    width: 136px;
+    display: flex;
+    justify-content: SPACE-BETWEEN;
+    align-items: center;
+}
+
+.profile-header .buttons-main.profile-main-btn {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-header.profile-header-icon .icon-maintwo img {
+    width: 22px;
+    height: 22px;
+}
+
+.profile-header .icon-header.profile-header-icon .ind-rup img {
+    width: 15px;
+    height: 15px;
+}
+
+.profile-header .button.profile-btn a {
+    background: #D8A902;
+    color: #000;
+    display: inline-flex;
+    gap: 8px;
+}
+
+.profile-header .button.profile-btn img {
+    margin: 0px;
+}
+
+.profile-header .button.profile-btn img.icon-imgone {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+.profile-heading h2 {
+    top: 162px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 109px;
+    text-align: center;
+    letter-spacing: -0.64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.profile-heading {
+    margin-top: 83px;
+}
+
+/* Profile container css */
+.profile-banner .form-container {
+    padding: 0;
+    width: 800px;
+    margin: 0 auto;
+    }
+    
+.profile-banner .form-group {
+    margin-bottom: 36px;
+}
+
+.profile-banner .form-group input {
+    width: 100%;
+    padding: 18px 10px 18px 37px;
+    background: #101010;
+    border: 1px solid #D3D3D3;
+    border-radius: 6.09px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+}
+
+.profile-banner .verify-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #222222;
+    border: 1.0981px solid #FFFFFF;
+    border-radius: 6.09px;
+    padding: 13px 30px 13px 40px;
+    gap: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.profile-banner .email-verify {
+    background: #222;
+    color: white;
+}
+.profile-banner .mobile-verify {
+    background: #BF0404;
+    color: white;
+}
+.profile-banner .verify-btn i {
+    margin-right: 5px;
+}
+.profile-banner .submit-btn {
+    background: #D8A902;
+    width: 100%;
+    padding: 22px 0px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.profile-banner .date-input {
+    position: relative;
+}
+
+
+.profile-banner .form-group label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.profile-banner input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+    background:transparent;
+}
+
+.profile-banner .sub-group-div {
+    display: flex;
+    position: relative;
+}
+
+.profile-banner .sub-group-div img {
+    width: 24px;
+    height: 24px;
+}
+
+.profile-banner .solar-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.profile-banner .solar-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-banner .sub-group-div img.input-arrow {
+    width: 9.5px;
+    height: 8.52px;
+}
+
+.casino-banner.profile-banner {
+    padding-bottom: 86px;
+}
+
+/* verify-number-banner */
+
+.verify-number-banner .otp-container {
+    width: 964px;
+    height: 762px;
+    border: 1.2035px solid #D3D3D3;
+    border-radius: 6.01748px 0px 0px 7.3243px;
+    padding: 52px 200px 78px;
+    position: relative;
+}
+
+.verify-number-banner .input-group {
+    display: inline-flex;
+    align-items: center;
+    margin: 0px 0px 23px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6.08586px;
+    width: 100%;
+}
+
+.verify-number-banner .country-code {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #222222;
+    border-radius: 5px 0px 0px 6.08586px;
+    padding: 13px 30px;
+}
+
+.verify-number-banner .country-code img {
+    width: 30px;
+    height: 30px;
+}
+
+.verify-number-banner .input-group input {
+    padding-left: 35px;
+    color: #fff;
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+}
+
+.verify-number-banner .resend-section {
+    margin: 42px 0px 24px;
+    border-top: 1px solid #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.verify-number-banner .resend-timer {
+    color: #CBA24A;
+    font-weight: bold;
+}
+
+.verify-number-banner .casino-row.g-0.verify-number-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verify-number-banner .otp-header h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 38px;
+}
+
+.verify-number-banner .country-code span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+}
+
+
+.verify-number-banner .verify-number-banner .closed-btndiv img {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+
+
+.verify-number-banner button.close-btn-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.verify-number-banner .otp-button button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #000000;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.verify-number-banner .otp-button {
+    background: #D8A902;
+    border: 1px solid #FFFFFF;
+    border-radius: 6.6px;
+    width: 100%;
+    padding: 22px 0;
+    text-align: center;
+}
+
+.verify-number-banner .resend-section span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 27px 0px 24px;
+    position: relative;
+}
+
+.verify-number-banner .input-group.sm-input input {
+    padding: 14px 27px;
+}
+
+.verify-number-banner .input-group input::placeholder {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+}
+
+.verify-number-banner .voice-button-main {
+    border: 1.2035px solid #D8A902;
+    border-radius: 6.09px;
+    text-align: center;
+    padding: 26px;
+    margin-top: 55px;
+}
+
+.verify-number-banner .voice-button-main button.voice-otp-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.8489px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: transparent;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.verify-number-banner button.close-btn-icon img {
+    width: 26px;
+    height: 26px;
+}
+
+
+
+
+.change-password .forgott-container {
+    width: 964px;
+    height: 773px;
+    padding: 52px 80px 80px 80px;
+    background: #101010;
+    border: 1.2035px solid #D3D3D3;
+    border-radius: 6.01748px 0px 0px 7.3243px;
+    position:relative;
+}
+
+ .change-password .login-header h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.change-password .input-group h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.change-password .input-group input {
+    width: 100%;
+    padding: 14px 26px 14px 37px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 6.08586px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #D3D3D3;
+}
+
+.change-password .input-sub-gp {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.change-password .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #D8A902;
+    cursor: pointer;
+}
+
+.change-password button.toggle-password img {
+    width: 16px;
+    height: 16px;
+}
+
+ .change-password .input-group {
+    margin: 0px 0px 20px;
+    position: relative;
+}
+
+.change-password .confirm-pass {
+    margin-top: 42px;
+}
+
+.change-password .login-btn {
+    width: 100%;
+    padding: 22px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #000000;
+    background: #D8A902;
+    border: 1px solid #FFFFFF;
+    border-radius: 6.6px;
+}
+
+ .change-password .closed-button img {
+    width: 100%;
+    height: 100%;
+}
+
+.change-password .closed-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 26px;
+    height: 26px;
+}
+
+.change-password .casino-row.g-0.change-pas-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+
+/* .payment-setting modal css */
+.payment-setting .tran-sub p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #FFFFFF;
+}
+
+.payment-setting .tran-sub a {
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: #0A70A9;
+}
+
+.payment-setting .tran-sub {
+    margin: 36px 0px;
+}
+
+.payment-setting button.payment-btn a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: transparent;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.payment-setting button.payment-btn {
+    padding: 16.467px 29.94px;
+    border: 1.0981px solid #D8A902;
+    border-radius: 6.6px;
+    background: transparent;
+    margin-bottom: 42px;
+}
+
+.payment-setting button.payment-btn img {
+    width: 9.5px;
+    height: 8.52px;
+}
+
+
+.payment-setting .casino-row.g-0.profile-row.payment-setting-row {
+    padding-top: 150px;
+}
+
+.payment-setting .casino-row.g-0.profile-row.payment-setting-row .profile-heading {
+    margin: 0;
+}
+
+/* security setting modal css */
+.security-setting .two-factor-auth label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #FFFFFF;
+}
+
+.security-setting .two-factor-auth span {
+    color: #0AA937;
+    margin-left: 14px;
+}
+
+.security-setting .security-setting-row {
+    height: unset;
+}
+
+.security-setting .two-factor-auth {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.security-setting  .status-text {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.security-setting .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+}
+
+.security-setting .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.security-setting .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.4s;
+    width: 26px;
+    height: 11px;
+    background: #0AA937;
+    border-radius: 5.5px;
+}
+
+.security-setting .slider:before {
+    content: "";
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    left: 0px;
+    bottom: 1px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.security-setting input:checked + .slider {
+    background-color: green;
+    margin: 0;
+}
+
+.security-setting input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+.security-setting .two-factor-auth.disabled-factor span {
+    color: #BF0404;
+}
+
+.security-setting label.switch.disabled-switch span.slider.round.disabled-slid {
+    background: #BF0404;
+}
+
+.security-setting span.slider.round.disabled-slid::before {
+    left: -20px;
+}
+
+.payment-setting .tran-sub.opted-div a {
+    text-decoration: none;
+    color: #0AA937;
+}
+
+
+/* account management */
+
+.two-factor-auth.management-factor {
+    display: flex;
+    justify-content: space-between;
+    width: 236px;
+    margin-bottom: 36px;
+}
+
+.two-factor-auth.management-factor span.status-text {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.48px;
+    color: #0AA937;
+}
+
+.transaction-main.management-delete button.payment-btn {
+    background:#BF0404;
+    border:1px solid #fff;
+}
+
+/* end */
+/* Responsive CSS */
+
+ @media (min-width:991px) {
+
+    .container-1470 {
+        max-width: 76.563vw;
+    }
+    
+    /* header CSS Start */
+    
+    header .row .ManuBar ul {
+        gap: 8.333vw;
+    }
+    
+    header .row {
+        padding-top: 2.396vw;
+    }
+    
+    .header-logo {
+        width: 10.052vw;
+    }
+    
+    .header-logo img {
+        width: 5.417vw;
+    }
+    
+    header .row .ManuBar {
+        width: 25vw;
+    }
+    
+    header .row .ManuBar ul li a {
+        font-size: 0.833vw;
+        line-height: 1.25vw;
+        letter-spacing: -0.042vw;
+    }
+    
+    .button a {
+        font-size: 0.729vw;
+        line-height: 1.094vw;
+        border: 0.057vw solid #FFFFFF;
+        border-radius: 0.344vw;
+        transition: all 0.3 ease-in-out;
+        padding: 0.625vw 1.51vw;
+    }
+            
+    .buttons-main {
+        gap: 0.938vw;
+        width: 20%;
+    }
+    
+    .button img {
+        width: 0.495vw;
+        height: 0.444vw;
+        margin-left: 0.417vw;
+    }
+    
+    .button a img {
+        transition: filter 0.3s ease; 
+    }
+    
+    .button a:hover img {
+        filter: invert(1); 
+    }
+
+/* profile header  */
+
+    .profile-header .header-img img {
+        width: 2.969vw;
+        height: 2.969vw;
+    }
+
+    .profile-header .icon-header.profile-header-icon img {
+        width: 1.25vw;
+        height: 1.25vw;
+    }
+
+    .profile-header .icon-header.profile-header-icon span {
+        font-size: 0.938vw;
+        line-height: 1.406vw;
+        letter-spacing: -0.042vw;
+    }
+
+    .profile-header .icon-header.profile-header-icon {
+        width: 7.083vw;
+    }
+
+    .icon-header.profile-header-icon .icon-maintwo img {
+        width: 1.146vw;
+        height: 1.146vw;
+    }
+
+    .profile-header .icon-header.profile-header-icon .ind-rup img {
+        width: 0.781vw;
+        height: 0.781vw;
+    }
+
+    .profile-header .button.profile-btn a {
+        gap: 0.417vw;
+    }
+
+    .profile-header .button.profile-btn img.icon-imgone {
+        width: 0.781vw;
+        height: 0.781vw;
+    }
+
+    /* banner section css */
+    .banner-section {
+        padding: 7.24vw 0vw 4.167vw;
+    }
+    
+    .banner-img {
+        width: 45.052vw;
+        height: 43.438vw;
+    }
+    
+    .banner-content h1 {
+        width: 39.01vw;
+        font-size: 5.505vw;
+        line-height: 5.677vw;
+        letter-spacing: -0.033vw;
+    }
+    
+    .banner-content h3 {
+        font-size: 2.055vw;
+        line-height: 109%;
+        box-shadow: inset 4.673vw -4.673vw 4.673vw rgba(165, 165, 165, 0.061), inset -4.673vw 4.673vw 4.673vw rgba(255, 255, 255, 0.061);
+        backdrop-filter: blur(3.662vw);
+        border-radius: 0.678vw;
+        padding: 1.094vw 1.25vw;
+        margin: 1.25vw 0vw 1.979vw;
+    }
+    
+    .banner-content h3::before {
+        padding: 0.052vw;
+        border-radius: 0.677vw;
+    }
+            
+    .banner-content p {
+        width: 36.719vw;
+        font-size: 1.094vw;
+        line-height: 160%;
+        letter-spacing: -0.017vw;
+        margin-bottom: 3.542vw;
+    }
+    
+    .left-img {
+        width: 8.646vw;
+        height: 7.396vw;
+        left: -4.323vw;
+        top: 13.021vw;
+    }
+    
+    .right-img {
+        right: -3.125vw;
+        width: 11.979vw;
+        height: 10.208vw;
+        top: 10.99vw;
+        filter: blur(0.521vw);
+    }
+    
+    /* Casino inner Page CSS */
+
+.casino-row {
+    padding-top: 2.604vw;
+    height: 55.208vw;
+}
+
+.casino-heading h1 {
+    font-size: 19.306vw;
+    line-height: 28.958vw;
+}
+
+.casino-img {
+    width: 60.417vw;
+    height: 40.208vw;
+    top: 8.281vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.casino-right-img img {
+    filter: blur(0.911vw);
+}
+
+.casino-right-img {
+    width: 5.729vw;
+    height: 14.346vw;
+    bottom: 11.458vw;
+    transform: matrix(-1.96, 0.27, 0.27, 0.96, 0, 0);
+}
+
+.casino-left-img img {
+    filter: blur(0.911vw);
+}
+
+.casino-left-img {
+    width: 4.688vw;
+    height: 14.346vw;
+    top: 13.177vw;
+    transform: matrix(-1.96, 0.27, 0.27, 0.96, 0, 0);
+}
+
+.content-slider {
+    border: 0.052vw solid #FFFFFF;
+    padding: 1.563vw 0vw;
+}
+
+.content-slider p {
+    font-size: 0.938vw;
+    letter-spacing: 0.008vw;
+}
+
+.sub-main {
+    gap: 2.344vw;
+}
+
+.Latest.Winner h3 {
+    font-size: 1.563vw;
+    letter-spacing: 0.008vw;
+    width: 18.229vw;
+    height: 4.167vw;
+}
+
+.Latest.Winner {
+    width: 18.229vw;
+    bottom: 0.104vw;
+}
+
+.button.filter-button img {
+    margin: 0vw 0.521vw 0vw 0vw;
+    width: 1.25vw;
+    height: 1.25vw;
+}
+
+.casino-inner-button {
+    gap: 1.146vw;
+}
+   
+
+/* Profile Banner CSS */
+
+.profile-heading h2 {
+    top: 8.438vw;
+    font-size: 2.604vw;
+    line-height: 5.677vw;
+    letter-spacing: -0.033vw;
+}
+
+.profile-heading {
+    margin-top: 4.323vw;
+}
+
+/* Profile container css */
+.profile-banner .form-container {
+    width: 41.667vw;
+    }
+    
+.profile-banner .form-group {
+    margin-bottom: 1.875vw;
+}
+
+.profile-banner .form-group input {
+    padding: 0.938vw 0.521vw 0.938vw 1.927vw;
+    border: 0.052vw solid #D3D3D3;
+    border-radius: 0.317vw;
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+}
+
+.profile-banner .verify-btn {
+    right: 0.521vw;
+    border: 0.057vw solid #FFFFFF;
+    border-radius: 0.317vw;
+    padding: 0.677vw 1.563vw 0.677vw 2.083vw;
+    gap: 0.417vw;
+    font-size: 0.729vw;
+    line-height: 1.094vw;
+}
+
+.profile-banner .submit-btn {
+    padding: 1.146vw 0vw;
+    border-radius: 0.26vw;
+    font-size: 0.729vw;
+    line-height: 1.094vw;
+}
+
+.profile-banner .form-group label {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+    margin-bottom: 0.677vw;
+}
+
+.profile-banner input::placeholder {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+}
+
+.profile-banner .sub-group-div img {
+    width: 1.25vw;
+    height: 1.25vw;
+}
+
+.profile-banner .solar-icon {
+    right: 0.521vw;
+}
+
+.profile-banner .solar-icon img {
+    width: 1.563vw;
+    height: 1.563vw;
+}
+
+.profile-banner .sub-group-div img.input-arrow {
+    width: 0.495vw;
+    height: 0.444vw;
+}
+
+.casino-banner.profile-banner {
+    padding-bottom: 4.479vw;
+}
+
+/* verify-number-banner */
+
+.verify-number-banner .otp-container {
+    width: 50.208vw;
+    height: 39.688vw;
+    border: 0.063vw solid #D3D3D3;
+    border-radius: 0.313vw 0vw 0vw 0.381vw;
+    padding: 2.708vw 10.417vw 4.063vw;
+}
+
+.verify-number-banner .input-group {
+    margin: 0vw 0vw 1.198vw;
+    border: 0.052vw solid #FFFFFF;
+    border-radius: 0.317vw;
+}
+
+.verify-number-banner .country-code {
+    gap: 0.417vw;
+    background: #222222;
+    border-radius: 0.26vw 0vw 0vw 0.317vw;
+    padding: 0.677vw 1.563vw;
+}
+
+.verify-number-banner .country-code img {
+    width: 1.563vw;
+    height: 1.563vw;
+}
+
+.verify-number-banner .input-group input {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+    padding-left: 1.823vw;
+
+}
+
+.verify-number-banner .resend-section {
+    margin: 2.188vw 0vw 1.25vw;
+    border-top: 0.052vw solid #FFFFFF;
+}
+
+.verify-number-banner .otp-header h2 {
+    font-size: 1.563vw;
+    line-height: 2.604vw;
+    margin-bottom: 1.979vw;
+}
+
+.verify-number-banner .country-code span {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+}
+
+.verify-number-banner .verify-number-banner .closed-btndiv img {
+    width: 1.25vw;
+    height: 1.25vw;
+}
+
+.verify-number-banner button.close-btn-icon {
+    right: 1.042vw;
+    top: 1.042vw;
+}
+
+.verify-number-banner .otp-button button {
+    font-size: 0.729vw;
+    line-height: 1.094vw;
+}
+
+.verify-number-banner .otp-button {
+    border: 0.052vw solid #FFFFFF;
+    border-radius: 0.344vw;
+    padding: 1.146vw 0;
+}
+
+.verify-number-banner .resend-section span {
+    font-size: 1.146vw;
+    line-height: 2.604vw;
+    margin: 1.406vw 0vw 1.25vw;
+}
+
+.verify-number-banner .input-group.sm-input input {
+    padding: 0.729vw 1.406vw;
+}
+
+.verify-number-banner .input-group input::placeholder {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+}
+
+.verify-number-banner .voice-button-main {
+    border: 0.063vw solid #D8A902;
+    border-radius: 0.317vw;
+    padding: 1.354vw;
+    margin-top: 2.865vw;
+}
+
+.verify-number-banner .voice-button-main button.voice-otp-btn {
+    font-size: 0.878vw;
+    line-height: 1.302vw;
+}
+
+.verify-number-banner button.close-btn-icon img {
+    width: 1.354vw;
+    height: 1.354vw;
+}
+
+
+/* .change-password modal / profile screen */
+
+.change-password .forgott-container {
+    width: 50.208vw;
+    height: 40.26vw;
+    padding: 2.708vw 4.167vw 4.167vw 4.167vw;
+    border: 0.063vw solid #D3D3D3;
+    border-radius: 0.313vw 0vw 0vw 0.381vw;
+}
+
+ .change-password .login-header h2 {
+    font-size: 1.563vw;
+    line-height: 2.604vw;
+    margin-bottom: 2.448vw;
+}
+
+.change-password .input-group h3 {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+    margin-bottom: 0.677vw;
+}
+
+.change-password .input-group input {
+    padding: 0.729vw 1.354vw 0.729vw 1.927vw;
+    border: 0.052vw solid #FFFFFF;
+    border-radius: 0.317vw;
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+}
+
+.change-password .toggle-password {
+    right: 0.521vw;
+}
+
+.change-password button.toggle-password img {
+    width: 0.833vw;
+    height: 0.833vw;
+}
+
+ .change-password .input-group {
+    margin: 0vw 0vw 1.042vw;
+}
+
+.change-password .confirm-pass {
+    margin-top: 2.188vw;
+}
+
+.change-password .login-btn {
+    padding: 1.146vw 0vw;
+    font-size: 0.729vw;
+    line-height: 1.094vw;
+    border: 0.052vw solid #FFFFFF;
+    border-radius: 0.344vw;
+}
+
+.change-password .closed-button {
+    right: 1.042vw;
+    top: 1.042vw;
+    width: 1.354vw;
+    height: 1.354vw;
+}
+
+.change-password .casino-row.g-0.change-pas-row {
+    padding-top: 7.813vw;
+}
+
+/* .payment-setting modal css */
+.payment-setting .tran-sub p {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+}
+
+.payment-setting .tran-sub {
+    margin: 1.875vw 0vw;
+}
+
+.payment-setting button.payment-btn a {
+    font-size: 0.729vw;
+    line-height: 1.094vw;
+    gap: 0.521vw;
+}
+
+.payment-setting button.payment-btn {
+    padding: 0.858vw 1.559vw;
+    border: 0.057vw solid #D8A902;
+    border-radius: 0.344vw;
+    margin-bottom: 2.188vw;
+}
+
+.payment-setting button.payment-btn img {
+    width: 0.495vw;
+    height: 0.444vw;
+}
+
+.payment-setting .casino-row.g-0.profile-row.payment-setting-row {
+    padding-top: 7.813vw;
+}
+
+/* security setting modal css */
+.security-setting .two-factor-auth label {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
+}
+
+.security-setting .two-factor-auth span {
+    margin-left: 0.729vw;
+}
+
+.security-setting .two-factor-auth {
+    gap: 0.417vw;
+}
+
+.security-setting .switch {
+    width: 2.083vw;
+    height: 0.521vw;
+}
+
+.security-setting .slider {
+    width: 1.354vw;
+    height: 0.573vw;
+    border-radius: 0.286vw;
+}
+
+.security-setting .slider:before {
+    height: 0.469vw;
+    width: 0.469vw;
+    bottom: 0.052vw;
+}
+
+.security-setting input:checked + .slider:before {
+    transform: translateX(1.042vw);
+}
+
+.security-setting span.slider.round.disabled-slid::before {
+    left: -1.042vw;
+}
+
+
+/* account management */
+
+.two-factor-auth.management-factor {
+    width: 12.292vw;
+    margin-bottom: 1.875vw;
+}
+
+.transaction-main.management-delete button.payment-btn {
+    border:0.052vw solid #fff;
+}
+
+.two-factor-auth.management-factor span.status-text {
+    font-size: 0.938vw;
+    line-height: 1.927vw;
+    letter-spacing: -0.025vw;
 }
 
 }

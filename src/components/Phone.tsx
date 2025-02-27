@@ -50,7 +50,7 @@ const Phone = () => {
               </form>
               <div className="register-link">
                   <span>Don’t have an account?</span> 
-                  <a href="#">Registration</a>
+                  <a href="/register">Registration</a>
               </div>
             </div>
           </div>

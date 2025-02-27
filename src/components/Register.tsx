@@ -57,11 +57,11 @@ const Register = () => {
             </div>
             </div>
 
-            <button className="login-btn">Confirm Registration</button>
+            <button className="login-btn" >Confirm Registration</button>
           </form>
           <div className="register-link">
           <span>  <a href="login">Have an account? </a></span>
-              <a href="#">Registration</a>
+              <a href="/login">Login</a>
           </div>
         </div>
       </div>
